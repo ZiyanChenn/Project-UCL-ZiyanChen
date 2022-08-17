@@ -50,7 +50,7 @@ This is the project for positron annihilation and CNN training.
 
 ## **MuMap, Annihilation, Prediction** 
 
-## Coordinate = (29,35,31), read by ITK-SNAP
+## Coordinate = (29,35,31), read by ITK-SNAP (from z,x,y view)
 
 # MuMap (Input)
 <img src="./prediction/mumap_xy.png" width = 30% height = 30%><img src="./prediction/mumap_yz.png" width = 30% height = 30%>
