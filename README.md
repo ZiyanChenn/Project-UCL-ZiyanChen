@@ -52,11 +52,12 @@ This is the project for positron annihilation and CNN training.
 
 ## Coordinate = (29,35,31), read by ITK-SNAP
 
+# MuMap (Input)
 <img src="./prediction/mumap_xy.png" width = 30% height = 30%><img src="./prediction/mumap_yz.png" width = 30% height = 30%>
 <img src="./prediction/mumap_xz.png" width = 30% height = 30% />
-
+# Estimation (Prediction)
 <img src="./prediction/estim_xy.png" width = 30% height = 30%><img src="./prediction/estim_yz.png" width = 30% height = 30%>
 <img src="./prediction/estim_xz.png" width = 30% height = 30% />
-
+# Annihilation (Output)
 <img src="./prediction/anni_xy.png" width = 30% height = 30%><img src="./prediction/anni_yz.png" width = 30% height = 30%>
 <img src="./prediction/anni_xz.png" width = 30% height = 30% />
