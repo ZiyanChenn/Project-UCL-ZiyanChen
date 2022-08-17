@@ -52,9 +52,11 @@ This is the project for positron annihilation and CNN training.
 
 ## (29,35,31)
 
-<img src="./prediction/mumap_xy.png" width = 30% height = 30%>
+<img src="./prediction/mumap_xy.png" width = 30% height = 30%><img src="./prediction/mumap_yz.png" width = 30% height = 30%>
+<img src="./prediction/mumap_xz.png" width = 30% height = 30% />
 
+<img src="./prediction/estim_xy.png" width = 30% height = 30%><img src="./prediction/estim_yz.png" width = 30% height = 30%>
+<img src="./prediction/estim_xz.png" width = 30% height = 30% />
 
-![Mu_xy](./prediction/mumap_xy.png)![Mu_yz](./prediction/mumap_yz.png)![Mu_xz](./prediction/mumap_xz.png)
-![estim_xy](./prediction/estim_xy.png)![estim_yz](./prediction/estim_yz.png)![estim_xz](./prediction/estim_xz.png)
-![anni_xy](./prediction/anni_xy.png)![anni_yz](./prediction/anni_yz.png)![anni_xz](./prediction/anni_xz.png)
+<img src="./prediction/anni_xy.png" width = 30% height = 30%><img src="./prediction/anni_yz.png" width = 30% height = 30%>
+<img src="./prediction/anni_xz.png" width = 30% height = 30% />
