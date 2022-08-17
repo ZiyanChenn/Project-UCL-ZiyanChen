@@ -1,0 +1,28 @@
+/gate/world/daughters/name LungPhantom
+
+# INSERT THE NAVIGATION ALGORITHM THE MOST APPROPRIATE TO YOUR SIMULATION
+/gate/world/daughters/insert ImageNestedParametrisedVolume
+
+# READ IMAGE (.h33 for Interfile, .mhd for MetaImage, .hdr for Analyze)
+/gate/LungPhantom/geometry/setImage AtnGate{SimuId}.h33
+#/gate/LungPhantom/geometry/setImage AtnGate1.h33
+
+# INSERT THE TRANSLATOR THAT WILL CONVERT THE IMAGE FROM DIGITAL VALUES TO
+# MATERIAL INFORMATION
+# RANGE TRANSLATOR (label values)
+/gate/LungPhantom/geometry/setRangeToMaterialFile AttenuationConv.dat
+
+/gate/LungPhantom/placement/setTranslation 0. 0. 0. mm
+/gate/LungPhantom/placement/setRotationAxis 1 0 0
+/gate/LungPhantom/placement/setRotationAngle 0 deg
+/gate/LungPhantom/attachPhantomSD
+
+# ACTORS
+# to get mu map (REQUIRES GATE > 8.2)
+/gate/actor/addActor MuMapActor getMuMap
+/gate/actor/getMuMap/attachTo LungPhantom
+/gate/actor/getMuMap/save images/Phantom{SimuId}.hdr
+/gate/actor/getMuMap/setVoxelSize 1.0 1.0 1.0  mm
+/gate/actor/getMuMap/setResolution 64 64 64
+/gate/actor/getMuMap/setEnergy 511 keV
+

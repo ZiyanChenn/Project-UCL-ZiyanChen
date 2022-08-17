@@ -1,0 +1,10 @@
+/gate/physics/Gamma/SetCutInRegion	crystal 1.0 cm
+
+/gate/physics/Electron/SetCutInRegion   crystal 1.0 cm
+
+/gate/physics/Positron/SetCutInRegion   crystal 1.0 cm
+
+# For Positron Range simulation only !!!!
+
+/gate/physics/SetMaxTrackLengthInRegion world 1000 mm
+/gate/physics/ActivateSpecialCuts gamma
