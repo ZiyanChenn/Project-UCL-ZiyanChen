@@ -53,15 +53,6 @@ This is the project for positron annihilation and CNN training.
 ## (29,35,31)
 
 
-![Mu_xy](./prediction/mumap_xy.png)
-![Mu_yz](./prediction/mumap_yz.png)
-![Mu_xz](./prediction/mumap_xz.png)
-
-![estim_xy](./prediction/estim_xy.png)
-![estim_yz](./prediction/esitim_yz.png)
-![estim_xz](./prediction/esitim_xz.png)
-
-![anni_xy](./prediction/anni_xy.png)
-![anni_yz](./prediction/anni_yz.png)
-![anni_xz](./prediction/anni_xz.png)
-
+![Mu_xy](./prediction/mumap_xy.png)![Mu_yz](./prediction/mumap_yz.png)![Mu_xz](./prediction/mumap_xz.png)
+![estim_xy](./prediction/estim_xy.png)![estim_yz](./prediction/estim_yz.png)![estim_xz](./prediction/estim_xz.png)
+![anni_xy](./prediction/anni_xy.png)![anni_yz](./prediction/anni_yz.png)![anni_xz](./prediction/anni_xz.png)
