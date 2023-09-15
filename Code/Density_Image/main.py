@@ -23,6 +23,7 @@ os.chdir(path)
 # Lung Box
 # Lung_Mu = 0.25 # (Max = 3.619, Min = 0)
 
+#if want more files, just change the 500 to the number of files you want
 for fileNumber in range(500): # 500
 
     # random (0.2-0.3)

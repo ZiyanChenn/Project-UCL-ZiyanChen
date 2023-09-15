@@ -1,9 +1,9 @@
 import numpy as np
 import math
 
-# Generate random int, 1 - 10
+# Generate random int, 1 - 10 --> change to just 1 ellipsoid
 def GenRandomInt():
-    GenInt = np.random.randint(1, 10)
+    GenInt = np.random.randint(1, 2)
     return GenInt
 
 # Generate random Position, orientation，scale and Mu for ellipsoid
